@@ -16,9 +16,17 @@ body{
 
 header{
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4px;
 }
 
 #title h1{
@@ -30,9 +38,8 @@ header{
 
 ul{
    display: flex;
-   justify-content: flex-end;
    float: right;
-   margin-left: 110px;
+   margin-left: 300px;
    font-size: 90px;
 }
 
